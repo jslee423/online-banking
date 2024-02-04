@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	color: #0D1634;
+}
+
+.errorMessage {
+	color: red;
+}
+
+.mainDiv {
+	text-align: center;
+}
+
+form {
+	margin: auto;
+}
+
+.dbList {
+	margin: auto;
+	width: 90%;
+	color: #0D1634;
+	border-collapse: collapse;
+}
+
+.dbList td {
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #0D1634;
+}
+
+.dbList th {
+	background-color: #0D1634;
+	color: #fff;
+}
+
+.dbList tbody tr:nth-child(odd) {
+  background-color: rgb(255, 213, 118);
+}
+
+.loggedInUser {
+	margin: 0;
+}
+
+.headerh1 {
+	margin: 0;
+	padding: 20px;
+}
+
+#transferDate, #openDate {
+	border: none;
+}
+
+.searchError {
+	margin: 0;
+}
+
+input {
+	border: none;
+	padding: 8px 25px;
+	border-radius: 5px;
+	text-align: center;
+	filter: drop-shadow(0 0 3px #333);
+}
+
+input[type=submit] {
+	background-color: #FCBC40;
+	color: #0D1634;
+	font-weight: bold;
+	padding: 5px 25px;
+	cursor: pointer;
+}
+
+select {
+	border: none;
+	padding: 8px 25px;
+	border-radius: 5px;
+	text-align: center;
+	filter: drop-shadow(0 0 3px #333);
+}
+
+#updateBtn {
+	background-color: red;
+	color: white;
+}
+
+form {
+	width: fit-content;
+	margin: auto;
+}
+
+
+.updateLink, .deleteLink {
+	padding: 8px 25px;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.updateLink {
+	background-color: green;
+}
+
+.deleteLink {
+	background-color: red;
+}

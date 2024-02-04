@@ -1,0 +1,12 @@
+.user input[type=text] {
+	padding: 5px 20px;
+	margin-bottom: 10px;
+}
+
+#userRoleHeader {
+	margin: 0;
+}
+
+.user input[type=submit] {
+	margin-bottom: 20px;
+}

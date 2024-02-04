@@ -1,0 +1,102 @@
+.home {
+	/*background-image: linear-gradient(to left, transparent 0%, #000000 95%), url("../img/skyscrapers.jpg");*/
+	background-image: linear-gradient(to left, transparent 0%, rgb(230, 230, 230) 80%), url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	backdrop-filter: blur(3px);
+}
+
+.homeNotAuthenticated {
+	height: calc(100vh - 12vh - 3px);
+}
+.homeAuthenticated {
+	min-height: calc(100vh - 12vh - 3px);
+}
+
+.home h1, h2 {
+	color: #0D1634;
+}
+
+.homeLogin {
+	width: 85%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 10%;
+}
+
+.homeLogin input {
+	border: none;
+	padding: 8px 25px;
+	border-radius: 5px;
+	text-align: center;
+	filter: drop-shadow(0 0 3px #333);
+}
+
+.homeLogin input[type=text], input[type=password] {
+	margin-bottom: 10px;
+	padding: 5px 20px;
+
+}
+
+.homeLogin input[type=submit] {
+	background-color: #FCBC40;
+	color: #0D1634;
+	font-weight: bold;
+	padding: 5px 25px;
+	margin-bottom: 10px;
+}
+
+.homeLogin form {
+	background-color: white;
+	padding: 150px 120px;
+	border-radius: 10px;
+	filter: drop-shadow(0 0 5px #333);
+	margin: 0;
+}
+
+.homeLogin #logo-name {
+	height: 50px;
+}
+
+.homeLogin h1 {
+	color: #085D7E;
+	font-size: 2.5rem;
+	text-align: left;
+	margin: 0;
+	margin-bottom: 15px;
+	line-height: 2.8rem;
+}
+.homeLogin li {
+	text-align: left;
+	font-size: 1.5rem;
+}
+
+.homeLogin ul {
+	padding-left: 15px;
+	margin: 0;
+}
+
+.homeSection {
+	background-color: white;
+	width: 85%;
+	margin: auto;
+	padding: 20px 0;
+	border-radius: 10px;
+	filter: drop-shadow(0 0 3px #333);
+}
+
+.homeLogin p {
+	font-size: 0.8rem;
+	margin: 0;
+}
+
+.home a {
+	text-decoration: none;
+	color: #085D7E;
+}

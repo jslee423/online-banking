@@ -1,0 +1,13 @@
+.transactionSuccess a {
+	text-decoration: none;
+	color: #085D7E;
+}
+
+.transactionSuccess a:hover {
+	color: #FCBC40;
+	text-decoration: underline;
+}
+
+.transactionSuccess #headerh1 {
+	padding-bottom: 10px;
+}

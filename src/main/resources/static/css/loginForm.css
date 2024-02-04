@@ -1,0 +1,41 @@
+.login {
+	padding-top: 20px;
+	background-image: linear-gradient(to left, transparent 0%, rgb(230, 230, 230) 95%), url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: top;
+	backdrop-filter: blur(3px);
+	height: calc(100vh - 12vh - 3px);
+	box-sizing: border-box;
+}
+
+.login input {
+	border: none;
+	padding: 8px 25px;
+	border-radius: 5px;
+	text-align: center;
+	filter: drop-shadow(0 0 3px #333);
+}
+
+.login input[type=text], input[type=password] {
+	margin-bottom: 10px;
+}
+
+.login input[type=submit] {
+	background-color: #FCBC40;
+	color: #0D1634;
+	font-weight: bold;
+	padding: 5px 25px;
+}
+
+.login h2 {
+	margin: 0;
+	color: #0D1634;
+	margin-bottom: 10px;
+}
+
+.login #logo-name {
+	height: 70px;
+	margin-bottom: 20px;
+}

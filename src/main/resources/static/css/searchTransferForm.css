@@ -1,0 +1,13 @@
+.searchTransaction input[type=date], select {
+	padding: 5px 20px;
+	margin-bottom: 10px;
+}
+
+.searchTransaction input[type=submit] {
+	margin-top: 35%;
+	margin-left: 20px;
+}
+
+.searchTransaction td:has(select) {
+	padding-right: 25px;
+}

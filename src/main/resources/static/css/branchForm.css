@@ -1,0 +1,12 @@
+.branch input[type=text] {
+	padding: 5px 20px;
+	margin-bottom: 10px;
+}
+
+.branch input[type=submit] {
+	margin-bottom: 20px;
+}
+
+#branchAddress {
+	margin: 0;
+}

@@ -1,0 +1,8 @@
+.role input[type=text] {
+	padding: 5px 20px;
+	margin-bottom: 10px;
+}
+
+.role input[type=submit] {
+	margin-bottom: 20px;
+}

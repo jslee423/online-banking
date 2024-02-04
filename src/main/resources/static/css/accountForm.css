@@ -1,0 +1,16 @@
+#openDate {
+	background-color: transparent;
+}
+
+#openDate:focus {
+	outline: none;
+}
+
+.account input[type=text], select {
+	padding: 5px 20px;
+	margin-bottom: 10px;
+}
+
+.account input[type=submit] {
+	margin-bottom: 20px;
+}
